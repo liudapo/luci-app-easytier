@@ -29,10 +29,8 @@ jobs:
       matrix:
         arch:
           - aarch64_cortex-a53          
-        sdk:
-          - 22.03.7
+        sdk:          
           - SNAPSHOT
-
     steps:
       - uses: actions/checkout@v5
         with:
